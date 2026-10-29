@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ophelia Chapman</title>
+  <meta name="description" content="Ophelia Chapman – Mechanical engineering portfolio.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="brand" href="#top">Ophelia Chapman</a>
+      <nav class="nav" aria-label="Sections">
+        <a href="#statement">About</a>
+        <a href="#ats">ATS</a>
+        <a href="#wave">Washington Wave</a>
+        <a href="#husky">Husky Robotics</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>Ophelia Chapman</h1>
+      <p class="contact">
+        <a href="mailto:opheliachapman1@gmail.com">opheliachapman1@gmail.com</a>
+        <span class="sep">|</span>
+        <a href="tel:+19492997099">(949)-299-7099</a>
+        <span class="sep">|</span>
+        <span>Seattle, WA</span>
+        <span class="sep">|</span>
+        <span>U.S. Citizen</span>
+      </p>
+      <div class="dimension" aria-hidden="true"><span></span></div>
+    </div>
+  </section>
+
+  <main>
+
+    <!-- PERSONAL STATEMENT -->
+    <section class="section" id="statement">
+      <div class="container narrow reveal">
+        <span class="index" aria-hidden="true">01</span>
+        <h2>Personal Statement</h2>
+        <p class="statement">I’ve found that my defining moments in engineering come not from any grand accomplishment – finalizing a prototype, doing well on an exam, or winning a competition, but from the small, almost intimate details of my work. I’ve grown to love engineering during the obsessive hours of computer design or the moment when I’ve realized I need to throw away an idea and start again. As you’ll see throughout my portfolio, my dedication to mechanical engineering is not in one specific industry, but through an exploration of many possible applications of the same scientific process. My goal for my career is to reflect these personal moments in my projects.</p>
+      </div>
+    </section>
+
+    <!-- ATS CRITICAL FACILITIES -->
+    <section class="section tint" id="ats">
+      <div class="container reveal">
+        <span class="index" aria-hidden="true">02</span>
+        <h2>HVAC Controls Engineer Intern - ATS Critical Facilities</h2>
+        <div class="prose">
+          <p>I spent Summer 2026 as an HVAC Controls Engineer intern for ATS Critical Facilities on an active construction site data center in Houston. My main work focused on BMS integration, connecting and integrating the site’s mechanical HVAC equipment to a centralized network. My team used environmental sensors and DDC controllers to regulate air and water flow and maintain specific temperature setpoints.</p>
+          <p>I was able to practice creating controls drawing flow diagrams while onsite. This is a practice drawing I created for a fan coil unit, a simple air conditioning unit that blows air over a water-filled coil.</p>
+        </div>
+
+        <figure class="figure wide">
+          <img src="images/fcu-sheet-fc1.png" alt="Fan coil unit controls drawing, sheet FC.1" loading="lazy">
+        </figure>
+
+        <figure class="figure wide">
+          <img src="images/fcu-flow-diagram.png" alt="Fan coil unit system flow diagram with setpoints" loading="lazy">
+        </figure>
+
+        <figure class="figure wide paper">
+          <img src="images/fcu-sequence-of-operation.png" alt="Sequence of Operation for the fan coil unit" loading="lazy">
+        </figure>
+
+        <div class="prose">
+          <p>This page follows the fan coil unit system flow. It shows the client what the system is and how it is designed to be operated. I was given a flow diagram of the fan coil unit without any of the setpoints (eg. FILT-S, SF-C).</p>
+          <p>Each of these setpoints corresponds to a different operation or alarm from the DDC. I wrote the sequence of operations based on requirements that were given to me in written terms from the client, including all operating modes of the fan coil unit, controls protocol for different given scenarios, and alarms that can be activated in the client-controlled BMS system.</p>
+        </div>
+
+        <figure class="figure wide">
+          <img src="images/fcu-wiring-fc2.png" alt="Fan coil unit wiring drawing, sheet FC.2" loading="lazy">
+        </figure>
+
+        <div class="prose">
+          <p>FC.2 details the wiring that connects each setpoint to the data manager. In a data center, visual logic code, corresponding to the sequence of operations and setpoints shown above is uploaded to an Alerton VIP-363-HOA, and then wired directly to the fan coil unit. The inputs on the controller (Supply air temperature, filter alarm status, etc.) correspond to external data that the fan coil unit sensors take in, and the outputs are internal actions from the fan coil unit.</p>
+          <p>Underneath each input or output, I listed the circuit or controller that would be required for each point. For example, I paired the filter alarm sensor with a dry contact because it acts as a basic pressure sensor, reading the air pressure from each side of the filter and sending a filter alarm if they aren’t equal. My job as an engineer was to integrate each function of the unit in the simplest manner possible and describe it in even simpler terms.</p>
+        </div>
+
+        <h3 class="subhead">ATS CF Recommendation Letter</h3>
+        <div class="prose">
+          <p>I loved my time at ATS for the engineering experience I was able to gain and for the connections I made on the job site. Here is a letter of recommendation from my project manager, Danny Nichols.</p>
+        </div>
+
+        <article class="letter">
+          <h4>Houston Intern – Ms. Chapman</h4>
+          <p>Back in June, we had an intern join the Houston group. To be completely transparent, when I first heard we were getting an intern, I thought to myself, <em>“Great, another person to train right in the middle of an already intense schedule.”</em></p>
+          <p>From the moment she hit the ground, she was on the move.</p>
+          <p>She has taken on obstacles and challenges that even some of our more experienced engineers weren’t sure how to approach. Every problem that has been thrown her way, she has stepped up to with determination, pride, confidence, and a willingness to learn. She doesn’t back away from a challenge—she goes after it.</p>
+          <p>What impressed me the most is her attitude. She came into a fast-paced and demanding environment and found a way to contribute instead of simply standing on the sidelines and watching. She asks questions, takes initiative, and continues pushing herself to learn more.</p>
+          <p>Ms. Chapman is going to be a great engineer. I truly believe she has a very bright future ahead of her, and it has been an honor and a pleasure getting the opportunity to work alongside such an impressive young professional.</p>
+          <p>Keep pushing, Ms. Chapman. You have certainly earned my respect, and I look forward to seeing where your career takes you!</p>
+          <p class="signoff">Danny Nichols<br>Project Manager (ATS)<br>713-657-0266</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- WASHINGTON WAVE -->
+    <section class="section" id="wave">
+      <div class="container reveal">
+        <span class="index" aria-hidden="true">03</span>
+        <h2>President - Washington Wave</h2>
+        <div class="prose">
+          <p>As President of Washington Wave, I like to joke that I’ve moved on to “upper management.” My role involves less technical engineering work and focuses on managing club timelines, holding 1-1 meetings with each subteam lead on their week-by-week meeting structure, coordinating with industry professionals to speak at team meetings – really making sure that every aspect of the club runs smoothly.</p>
+          <p>So far in my work as President, I’ve run more than 10 summer meetings with leadership, coordinated and led 6 back-to-school outreach events, and worked with my leads to read through 137 applications, ultimately adding 32 new members to our club.</p>
+          <p>I hold 1-1 meetings with my leads once a quarter, discussing their plan for the quarter, what they want to teach their younger members, their goals for the overall year, and if they feel that each member is fully comfortable and participating in their subteam meetings.</p>
+        </div>
+
+        <div class="split">
+          <figure class="figure">
+            <img src="images/outreach-legos-and-pizza.jpg" alt="Prospective members at the Legos and Pizza outreach event" loading="lazy">
+          </figure>
+          <div class="side-text">
+            <p>An image from one of my outreach events this year: Legos and Pizza with Washington Wave. We had more than 50 prospective members participate in an activity conceptualizing an energy solution to a fictional, ‘silly’ problem.</p>
+            <p>Example problem: Citizens of Atlantis don’t want to rely on bioluminescence to see anymore! Design a renewable energy system that provides electricity deep underwater for the city. Explain the system and address real challenges (pressure, corrosion, cost, etc.)</p>
+          </div>
+        </div>
+
+        <h2 class="second">Actuator Lead - Washington Wave</h2>
+        <div class="prose">
+          <p>As the Actuator team lead of Washington Wave, I helped direct a team of 8 engineers and took the lead on designing, building, and testing a linear actuator. This actuator functioned as the “waves” for our wave-energy converter prototype, providing input power for a hydraulic cylinder pumping water between two check valves.</p>
+        </div>
+
+        <figure class="figure medium">
+          <img src="images/actuator-cad-assembly.png" alt="CAD model of the linear actuator assembly with numbered parts" loading="lazy">
+        </figure>
+
+        <figure class="figure medium">
+          <img src="images/actuator-cad-exploded.png" alt="CAD model of the actuator drivetrain with numbered parts" loading="lazy">
+        </figure>
+
+        <figure class="figure medium">
+          <img src="images/actuator-built.jpg" alt="The built linear actuator with numbered parts" loading="lazy">
+          <figcaption class="note"><em>*Limit switch clicker (6) not on system</em></figcaption>
+        </figure>
+
+        <ol class="parts">
+          <li><strong>(1): Motor and drive nut stabilizer housing.</strong> This part was designed to fit around the motor with small tolerances, connect the motor to the base-plate box (2), and integrate the drive nut stabilizer housing (3) to the motor. Material: PETG 3D print. Manufactured through 3D printing on Bambu printer.</li>
+          <li><strong>(2): Base-plate box:</strong> Connects motor housing (1) to the base plate. Material: PETG 3D print. Manufactured through 3D printing on Bambu printer.</li>
+          <li><strong>(3): Drive nut stabilizer housing:</strong> Works with drive nut stabilizer (6) to prevent the drive nut from experiencing rotational motion. Material: UHMW Polyethylene. Purchased round tube stock and cut a 1 cm slit through the stock using a table saw.</li>
+          <li><strong>(4): Limit switch holder:</strong> Holds an emergency stop limit switch at the end of the drive nut stabilizer housing (3) to automatically stop movement of the drive nut in case it goes too far along the lead screw. Material: PETG 3D Print. Manufactured through 3D printing on Bambu printer.</li>
+          <li><strong>(5): End cap:</strong> Holds the piston rod inside the drive nut stabilizer housing (3) so the lead screw doesn’t experience any bending moments. Material: PETG 3D Print. Manufactured through 3D printing on Bambu printer.</li>
+          <li><strong>(6): Drive nut stabilizer and limit switch clicker:</strong> Prevents the drive nut from experiencing rotational movement by forcing it to slide along the slit in the drive nut stabilizer housing (3). Materials: PETG 3D Print. Manufactured through 3D printing on Bambu printer.</li>
+          <li><strong>(7): Motor with attached lead screw:</strong> Powers the system. Purchased and unaltered.</li>
+          <li><strong>(8): Drive nut:</strong> Runs along lead screw and creates motion of the piston. Material: Unknown plastic composite. Arrived with the motor (7). Three small holes were drilled into the back face to connect to (6) and (9) using a hand drill.</li>
+          <li><strong>(9): Piston rod:</strong> Provides connection between the drive nut (8) and piston head (10). Material: 6061 Aluminum. Stock was largely left unaltered with the exception of a hole through the rod at the front end to hold a pin connecting the rod to the piston head (10) and 3 tapped holes to connect the rod to the drive nut (8).</li>
+          <li><strong>(10): Piston head:</strong> Pumps water through the hydraulic piston-cylinder. Material: PETG 3D Print. Manufactured through 3D printing on Bambu printer.</li>
+        </ol>
+
+        <div class="prose">
+          <p>Through creating this actuator, I became intimately familiar with the design, build, test, iterate process. Below, I’ve described my design process and difficulties faced throughout the year.</p>
+        </div>
+
+        <h3 class="subhead">Actuator Design Process</h3>
+        <div class="prose">
+          <p>My two major fabrication challenges were tolerancing and part integration. Because the drive nut stabilizer housing (3) was UHMW polyurethane (chosen for minimal shear) – a material that resists adhesives – every mating component required a perfect press fit or mechanical attachment. I discovered a secondary issue when we manufactured the slit in (3) – the plastic deformed inward, reducing the cylinder’s diameter. My team and I resolved this by designing spacers sized to the difference between the deformed and original diameters, which widened the slit and restored (3) to its original geometry. This actually worked in our favor by addressing both problems simultaneously, as restoring the cylinder's shape naturally created the press fit needed for secure part integration.</p>
+          <p>My team and I had to make a few changes to the actuator design throughout the design process, primarily, the housing model that prevented the rotational motion of the drive nut. We planned to prevent motion by attaching a square piece to the drive nut and integrating that with a rectangular prism housing that would use the edges of the rectangular prism to prevent the drive nut from rotating. However, we realized this design would cause an immense, destructive shear force on the edges of the rectangular prism and work against the force from the motor. We finally opted for a circular housing with only a small piece running through a slit in the housing to prevent rotational motion, minimizing the shear forces on the system as much as possible.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- HUSKY ROBOTICS -->
+    <section class="section tint" id="husky">
+      <div class="container reveal">
+        <span class="index" aria-hidden="true">04</span>
+        <h2>Structural Design Engineer - Husky Robotics</h2>
+        <div class="prose">
+          <p>I first became exposed to the design, build, test process during my freshman year at Husky Robotics. This club gave me my first foundations in prototyping, using CAD, and designing for manufacturing.</p>
+          <p>I was a member of the Mobility subteam, helping my team create a rocker-bogie subsystem for our rover’s chassis. I researched and proposed a rocker-bogie subsystem because of its chassis stabilization mechanism that dramatically reduces the angle experienced by the wheels on the main body.</p>
+        </div>
+
+        <div class="split">
+          <figure class="figure">
+            <img src="images/rocker-bogie-sketch.jpg" alt="Hand sketch of the rocker-bogie subsystem" loading="lazy">
+          </figure>
+          <div class="side-text">
+            <p>This is my first drawing of our rocker bogie subsystem. We wanted the frame to have four wheels instead of six and rotate around a central differential bar, or joint, connecting each half of the linkage system together.</p>
+          </div>
+        </div>
+
+        <div class="split flip">
+          <div class="side-text">
+            <p>A simple prototype my team and I made during one of our meetings. We wanted to do an initial test of the rocker-bogie mechanism’s stabilization. While this prototype wasn’t to scale or proportion, we were able to create a proof-of-concept for our idea.</p>
+          </div>
+          <figure class="figure">
+            <img src="images/rocker-bogie-prototype.jpg" alt="Lego prototype of the rocker-bogie mechanism" loading="lazy">
+          </figure>
+        </div>
+
+        <div class="split">
+          <figure class="figure">
+            <img src="images/mobility-part-cad.png" alt="CAD model of a mobility subteam part" loading="lazy">
+          </figure>
+          <div class="side-text">
+            <p>This is one of the parts I designed and modeled. As a freshman, I’d had no experience using CAD or creating assemblies, so through designing 30+ parts for the mobility team I learned the principles of design, metal cheesing, and linkage integration.</p>
+          </div>
+        </div>
+
+        <div class="split flip">
+          <div class="side-text">
+            <p>The part’s corresponding drawing file. The mobility team worked with our manufacturing team to teach us designing for manufacturing - specifically which parts were most difficult to make in our machine shop, simplifying geometry, and choosing necessary tolerances.</p>
+          </div>
+          <figure class="figure paper">
+            <img src="images/mobility-part-drawing.png" alt="Engineering drawing of the mobility subteam part" loading="lazy">
+          </figure>
+        </div>
+
+        <div class="prose">
+          <p>Finally, the assembled product, created in a one-year process. The system was connected through a differential bar, providing stability to the central joint and connecting each side of the system together. Clearance spaces for the wheels are represented in purple.</p>
+        </div>
+
+        <figure class="figure medium">
+          <img src="images/rocker-bogie-assembly.png" alt="CAD assembly of the rocker-bogie subsystem with wheel clearance spaces in purple" loading="lazy">
+        </figure>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-name">Ophelia Chapman</p>
+      <p class="contact">
+        <a href="mailto:opheliachapman1@gmail.com">opheliachapman1@gmail.com</a>
+        <span class="sep">|</span>
+        <a href="tel:+19492997099">(949)-299-7099</a>
+        <span class="sep">|</span>
+        <span>Seattle, WA</span>
+        <span class="sep">|</span>
+        <span>U.S. Citizen</span>
+      </p>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+    <button class="lightbox-close" aria-label="Close image">&times;</button>
+    <img alt="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
