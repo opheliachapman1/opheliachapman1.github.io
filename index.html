@@ -9,6 +9,15 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <style>
+    .triptych{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;align-items:start;margin:36px 0}
+    .triptych .figure{margin:0}
+    .figure.lowres img{width:100%;max-width:400px;margin:0 auto;cursor:default}
+    .figure.lowres img:hover{transform:none}
+    .figure.lowres .note{font-size:14px}
+    @media (max-width:820px){.triptych{grid-template-columns:1fr}}
+  </style>
+
 </head>
 <body>
 
