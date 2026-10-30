@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <style>
+    .figure.actuator{max-width:860px;margin-left:auto;margin-right:auto}
     .triptych{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;align-items:start;margin:36px 0}
     .triptych .figure{margin:0}
     .figure.lowres img{width:100%;max-width:400px;margin:0 auto;cursor:default}
@@ -160,20 +161,18 @@
           <p>As the Actuator team lead of Washington Wave, I helped direct a team of 8 engineers and took the lead on designing, building, and testing a linear actuator. This actuator functioned as the “waves” for our wave-energy converter prototype, providing input power for a hydraulic cylinder pumping water between two check valves.</p>
         </div>
 
-        <div class="triptych">
-        <figure class="figure lowres">
+                <figure class="figure actuator">
           <img src="actuator-cad-assembly.png" alt="CAD model of the linear actuator assembly with numbered parts" loading="lazy">
         </figure>
 
-        <figure class="figure lowres">
+        <figure class="figure actuator">
           <img src="actuator-cad-exploded.png" alt="CAD model of the actuator drivetrain with numbered parts" loading="lazy">
         </figure>
 
-        <figure class="figure lowres">
+        <figure class="figure actuator">
           <img src="actuator-built.jpg" alt="The built linear actuator with numbered parts" loading="lazy">
           <figcaption class="note"><em>*Limit switch clicker (6) not on system</em></figcaption>
         </figure>
-        </div>
 
         <ol class="parts">
           <li><strong>(1): Motor and drive nut stabilizer housing.</strong> This part was designed to fit around the motor with small tolerances, connect the motor to the base-plate box (2), and integrate the drive nut stabilizer housing (3) to the motor. Material: PETG 3D print. Manufactured through 3D printing on Bambu printer.</li>
