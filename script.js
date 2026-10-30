@@ -34,7 +34,7 @@
   var box = document.getElementById('lightbox');
   var boxImg = box.querySelector('img');
   function close() { box.hidden = true; boxImg.src = ''; document.body.style.overflow = ''; }
-  document.querySelectorAll('.figure img').forEach(function (img) {
+  document.querySelectorAll('.figure:not(.lowres) img').forEach(function (img) {
     img.addEventListener('click', function () {
       boxImg.src = img.src; boxImg.alt = img.alt;
       box.hidden = false; document.body.style.overflow = 'hidden';
